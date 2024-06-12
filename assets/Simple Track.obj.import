@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d38f63kfvyuhe"
+path="res://.godot/imported/Simple Track.obj-73daca2885076114022d5d92cb37d20b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Simple Track.obj-73daca2885076114022d5d92cb37d20b.mesh"]
+
+source_file="res://assets/Simple Track.obj"
+dest_files=["res://.godot/imported/Simple Track.obj-73daca2885076114022d5d92cb37d20b.mesh", "res://.godot/imported/Simple Track.obj-73daca2885076114022d5d92cb37d20b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

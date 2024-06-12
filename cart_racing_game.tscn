@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://d14h6m11bbkgq"]
+[gd_scene load_steps=16 format=3 uid="uid://d14h6m11bbkgq"]
 
 [ext_resource type="Texture2D" uid="uid://cww4sqbq1u87f" path="res://Dev Room/textures/medieval_red_brick_diff_4k.jpg" id="1_8bcvc"]
 [ext_resource type="ArrayMesh" uid="uid://bshrid5hvq582" path="res://Dev Room/battle test.obj" id="1_ggqpp"]
@@ -8,6 +8,7 @@
 [ext_resource type="ArrayMesh" uid="uid://bhbua0q1538hk" path="res://Dev Room/bootlegervehiclelowpoly.obj" id="3_hxgrx"]
 [ext_resource type="ArrayMesh" uid="uid://cc3oocle78xu6" path="res://Dev Room/Player Assets/inprocessbootleggerwheel.obj" id="3_yr7xw"]
 [ext_resource type="Script" path="res://front_wheel_left.gd" id="4_276by"]
+[ext_resource type="PackedScene" uid="uid://dij2wp1hwpxg3" path="res://player_1.tscn" id="9_v4fuo"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_065kx"]
 albedo_texture = ExtResource("1_8bcvc")
@@ -49,7 +50,8 @@ mesh = ExtResource("1_ggqpp")
 shape = SubResource("ConcavePolygonShape3D_tmqt2")
 
 [node name="car_test" type="VehicleBody3D" parent="."]
-transform = Transform3D(-0.583683, 0, 0.811982, 0, 1, 0, -0.811982, 0, -0.583683, 19.8582, 3.2039, -7.48199)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.8582, -10.4053, 35.6586)
+visible = false
 mass = 1400.0
 center_of_mass_mode = 1
 center_of_mass = Vector3(0, -0.2, 0)
@@ -117,8 +119,15 @@ script = ExtResource("4_276by")
 transform = Transform3D(-0.8, 0, -6.99382e-08, 0, 0.8, 0, 6.99382e-08, 0, -0.8, -0.0809397, 0, 0)
 mesh = ExtResource("3_yr7xw")
 
-[node name="Camera3D" type="Camera3D" parent="car_test"]
-transform = Transform3D(-0.99667, -0.0575741, -0.0577403, -0.0758982, 0.913863, 0.398866, 0.0298024, 0.40192, -0.91519, -0.0574422, 3.79748, -5.80053)
+[node name="CameraPivot" type="Node3D" parent="car_test"]
+visible = false
+
+[node name="Camera3D" type="Camera3D" parent="car_test/CameraPivot"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.00216484, 2.52194, -6.11573)
+visible = false
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_e465l")
+
+[node name="Player1" parent="." instance=ExtResource("9_v4fuo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -13.6188, 37.9091)

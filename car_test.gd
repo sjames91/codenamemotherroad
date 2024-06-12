@@ -1,10 +1,20 @@
 extends VehicleBody3D
 
 
+#@onready var camera_pivot = $CameraPivot
+#@onready var camera_3d = $CameraPivot/Camera3D
+
+
+
 
 func _physics_process(delta):
 	steering = lerp(steering, Input.get_axis("right","left") * 0.4, 5 * delta)
-	engine_force = Input.get_axis("back","forward") *2500
+	engine_force = Input.get_axis("back","forward") * 2500
+	
+	# Camera positioning
+	#camera_pivot.global_position = camera_pivot.global_position.lerp(global_position, delta * 20.0)
+	#camera_pivot.transform = camera_pivot.transform.interpolate_with(transform, delta * 2.0)
+
 	
 var triggerRecover = false
 

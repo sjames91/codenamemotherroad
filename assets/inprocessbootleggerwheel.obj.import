@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bi0374x8lr2s1"
+path="res://.godot/imported/inprocessbootleggerwheel.obj-3f462dd8bad6ab33e0ae8b5af120c497.mesh"
+
+[deps]
+
+files=["res://.godot/imported/inprocessbootleggerwheel.obj-3f462dd8bad6ab33e0ae8b5af120c497.mesh"]
+
+source_file="res://assets/inprocessbootleggerwheel.obj"
+dest_files=["res://.godot/imported/inprocessbootleggerwheel.obj-3f462dd8bad6ab33e0ae8b5af120c497.mesh", "res://.godot/imported/inprocessbootleggerwheel.obj-3f462dd8bad6ab33e0ae8b5af120c497.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
