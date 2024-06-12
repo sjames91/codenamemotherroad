@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvih7gweme7ur"
+path="res://.godot/imported/land.obj-5f09380e6fa14f16e32901ea9f8fbf5a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/land.obj-5f09380e6fa14f16e32901ea9f8fbf5a.mesh"]
+
+source_file="res://Dev Room/land.obj"
+dest_files=["res://.godot/imported/land.obj-5f09380e6fa14f16e32901ea9f8fbf5a.mesh", "res://.godot/imported/land.obj-5f09380e6fa14f16e32901ea9f8fbf5a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

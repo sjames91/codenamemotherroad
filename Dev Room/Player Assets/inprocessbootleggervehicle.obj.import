@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ufdn1gkmmtv7"
+path="res://.godot/imported/inprocessbootleggervehicle.obj-14c89974d3595e8d9a2dce5bf77541bd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/inprocessbootleggervehicle.obj-14c89974d3595e8d9a2dce5bf77541bd.mesh"]
+
+source_file="res://Dev Room/Player Assets/inprocessbootleggervehicle.obj"
+dest_files=["res://.godot/imported/inprocessbootleggervehicle.obj-14c89974d3595e8d9a2dce5bf77541bd.mesh", "res://.godot/imported/inprocessbootleggervehicle.obj-14c89974d3595e8d9a2dce5bf77541bd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
