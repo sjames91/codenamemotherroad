@@ -4,7 +4,7 @@
 [ext_resource type="ArrayMesh" uid="uid://bi0374x8lr2s1" path="res://assets/inprocessbootleggerwheel.obj" id="2_ngh4o"]
 [ext_resource type="ArrayMesh" uid="uid://bhbua0q1538hk" path="res://Dev Room/bootlegervehiclelowpoly.obj" id="3_e5pjt"]
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_vw8vq"]
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_e8txr"]
 points = PackedVector3Array(0.786242, -0.418159, -1.48107, 0.769463, -0.466448, -1.54838, 0.617838, 0.861061, -1.81187, 0.784549, -0.354117, -1.39164, 0.764999, -0.430379, -0.427767, 0.760843, -0.468215, -1.53748, 0.725284, -0.468951, -1.5737, 0.590746, -0.0738045, -1.96028, 0.590746, 0.0326377, -1.96028, 0.746373, -0.449959, -0.429049, 0.743294, -0.449959, -0.354684, -0.000207365, 0.929078, -1.81187, -0.000207365, 0.982079, -1.79744, 0.603522, 0.914062, -1.79744, 0.617838, 0.831322, -1.16501, 0.780239, -0.3126, -1.30573, -0.000207365, 0.0326377, -2.00964, 0.77285, -0.3338, -0.884539, 0.761921, -0.430379, -0.353402, 0.734212, -0.449959, -0.26974, 0.684646, -0.45732, -0.273907, 0.668636, -0.45732, -0.160115, 0.646008, -0.456879, -0.00721669, -0.725545, -0.468951, -1.5737, -0.000207365, -0.0643823, -2.00964, -0.618099, 0.861061, -1.81187, -0.603783, 0.914062, -1.79744, -0.000207365, 1.0208, -1.75866, 0.564731, 0.952781, -1.75866, 0.603522, 0.831764, -0.229352, 0.617684, 0.778764, -0.215248, 0.776236, -0.293461, -1.22624, -0.591007, 0.0326377, -1.96028, 0.771926, -0.307447, -0.976855, 0.752684, -0.430379, -0.268138, 0.613374, 0.251411, 1.11372, 0.736675, -0.430379, -0.153063, 0.718049, -0.449959, -0.154986, 0.695267, -0.449812, -0.00112629, 0.668329, -0.448487, 0.158503, 0.61907, -0.453345, 0.151131, -0.646269, -0.456879, -0.00721669, -0.761104, -0.468215, -1.53748, -0.769724, -0.466448, -1.54838, -0.591007, -0.0738045, -1.96028, -0.786349, -0.418159, -1.48107, -0.78481, -0.354117, -1.39164, -0.7805, -0.3126, -1.30573, -0.618099, 0.831322, -1.16501, -0.603783, 0.831764, -0.229352, -0.564992, 0.952781, -1.75866, -0.000207365, 1.03508, -1.70577, 0.511778, 0.967062, -1.70577, 0.564731, 0.870631, -0.268138, 0.566424, 0.300878, 1.10987, 0.611373, 0.183541, 1.12045, 0.409257, -0.281831, 1.26501, 0.428653, -0.285806, 1.26213, 0.448049, -0.284039, 1.2554, 0.713739, -0.430379, 0.0014379, 0.686647, -0.42979, 0.161068, 0.658477, -0.42714, 0.290566, 0.640159, -0.443923, 0.287682, -0.61933, -0.453345, 0.151131, -0.668589, -0.448487, 0.158503, -0.695528, -0.449812, -0.00112629, -0.668897, -0.45732, -0.160115, -0.684906, -0.45732, -0.273907, -0.734473, -0.449959, -0.26974, -0.743555, -0.449959, -0.354684, -0.746634, -0.449959, -0.429049, -0.76526, -0.430379, -0.427767, -0.773111, -0.3338, -0.884539, -0.776497, -0.293461, -1.22624, -0.617945, 0.778764, -0.215248, -0.613635, 0.251411, 1.11372, -0.566685, 0.300878, 1.10987, -0.564992, 0.870631, -0.268138, -0.512038, 0.967062, -1.70577, -0.000207365, 0.952781, -0.321347, 0.511778, 0.884764, -0.321347, -0.000207365, 0.938501, -0.268138, 0.0144163, 0.44604, 1.06756, 0.498231, 0.302939, 1.11083, 0.461133, -0.278297, 1.24257, 0.470831, -0.271819, 1.22591, -0.409518, -0.281831, 1.26501, -0.428914, -0.285806, 1.26213, 0.409719, -0.2914, 1.25732, 0.442815, -0.294197, 1.24931, 0.632308, -0.416392, 0.39314, 0.463134, -0.283597, 1.22334, 0.61399, -0.431262, 0.389934, -0.640419, -0.443923, 0.287682, -0.658738, -0.42714, 0.290566, -0.686908, -0.42979, 0.161068, -0.714, -0.430379, 0.0014379, -0.71831, -0.449959, -0.154986, -0.736936, -0.430379, -0.153063, -0.752945, -0.430379, -0.268138, -0.762181, -0.430379, -0.353402, -0.772187, -0.307447, -0.976855, -0.611634, 0.183541, 1.12045, -0.44831, -0.284039, 1.2554, -0.498492, 0.302939, 1.11083, -0.00836587, 0.44604, 1.06756, -0.512038, 0.884764, -0.321347, -0.443076, -0.294197, 1.24931, -0.40998, -0.2914, 1.25732, 0.424651, -0.294933, 1.24995, -0.614251, -0.431262, 0.389934, -0.632569, -0.416392, 0.39314, -0.463395, -0.283597, 1.22334, -0.461394, -0.278297, 1.24257, -0.471092, -0.271819, 1.22591, -0.424912, -0.294933, 1.24995)
 
 [node name="Player1" type="VehicleBody3D"]
@@ -15,61 +15,13 @@ center_of_mass = Vector3(0, -0.18, -0.4)
 angular_damp = 2.0
 script = ExtResource("1_xnny6")
 
-[node name="F_RightWheel" type="VehicleWheel3D" parent="."]
-transform = Transform3D(-1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 0.683, -0.89, -0.907)
-use_as_steering = true
-wheel_friction_slip = 1.4
-suspension_travel = 0.4
-suspension_stiffness = 150.0
-
-[node name="Inprocessbootleggerwheel" type="MeshInstance3D" parent="F_RightWheel"]
-transform = Transform3D(-1.13, 0, 1.70625e-07, 0, 1.13, 0, -1.70625e-07, 0, -1.13, 0, 0, 0)
-mesh = ExtResource("2_ngh4o")
-skeleton = NodePath("../..")
-
-[node name="F_LeftWheel" type="VehicleWheel3D" parent="."]
-transform = Transform3D(-1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, -0.683, -0.89, -0.907)
-use_as_steering = true
-wheel_friction_slip = 1.4
-suspension_travel = 0.4
-suspension_stiffness = 150.0
-
-[node name="Inprocessbootleggerwheel" type="MeshInstance3D" parent="F_LeftWheel"]
-transform = Transform3D(1.13, 0, 0, 0, 1.13, 0, 0, 0, 1.13, 0, 0, 0)
-mesh = ExtResource("2_ngh4o")
-skeleton = NodePath("../..")
-
-[node name="B_RightWheel" type="VehicleWheel3D" parent="."]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.683, -0.89, 1.126)
-use_as_traction = true
-wheel_friction_slip = 1.4
-suspension_travel = 0.4
-suspension_stiffness = 150.0
-
-[node name="Inprocessbootleggerwheel" type="MeshInstance3D" parent="B_RightWheel"]
-transform = Transform3D(-1.13, 0, 1.70625e-07, 0, 1.13, 0, -1.70625e-07, 0, -1.13, 0, 0, 0)
-mesh = ExtResource("2_ngh4o")
-skeleton = NodePath("../..")
-
-[node name="B_LeftWheel" type="VehicleWheel3D" parent="."]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.683, -0.89, 1.126)
-use_as_traction = true
-wheel_friction_slip = 1.4
-suspension_travel = 0.4
-suspension_stiffness = 150.0
-
-[node name="Inprocessbootleggerwheel" type="MeshInstance3D" parent="B_LeftWheel"]
-transform = Transform3D(1.13, 0, 0, 0, 1.13, 0, 0, 0, 1.13, 0, 0, 0)
-mesh = ExtResource("2_ngh4o")
-skeleton = NodePath("../..")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
-shape = SubResource("ConvexPolygonShape3D_vw8vq")
-
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
 mesh = ExtResource("3_e5pjt")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_e8txr")
 
 [node name="CenterOfMass" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.18, -0.4)
@@ -83,3 +35,55 @@ current = true
 
 [node name="ReverseCamera3D" type="Camera3D" parent="CameraPivot"]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 3.10078, -3.40754)
+
+[node name="B_LeftWheel" type="VehicleWheel3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.683, -0.89, 1.126)
+use_as_traction = true
+wheel_friction_slip = 1.4
+suspension_travel = 0.4
+suspension_stiffness = 150.0
+suspension_max_force = 10000.0
+
+[node name="Inprocessbootleggerwheel" type="MeshInstance3D" parent="B_LeftWheel"]
+transform = Transform3D(1.13, 0, 0, 0, 1.13, 0, 0, 0, 1.13, 0, 0, 0)
+mesh = ExtResource("2_ngh4o")
+skeleton = NodePath("../..")
+
+[node name="B_RightWheel" type="VehicleWheel3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.683, -0.89, 1.126)
+use_as_traction = true
+wheel_friction_slip = 1.4
+suspension_travel = 0.4
+suspension_stiffness = 150.0
+suspension_max_force = 10000.0
+
+[node name="Inprocessbootleggerwheel" type="MeshInstance3D" parent="B_RightWheel"]
+transform = Transform3D(-1.13, 0, 1.70625e-07, 0, 1.13, 0, -1.70625e-07, 0, -1.13, 0, 0, 0)
+mesh = ExtResource("2_ngh4o")
+skeleton = NodePath("../..")
+
+[node name="F_LeftWheel" type="VehicleWheel3D" parent="."]
+transform = Transform3D(-1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, -0.683, -0.89, -0.907)
+use_as_steering = true
+wheel_friction_slip = 1.4
+suspension_travel = 0.4
+suspension_stiffness = 150.0
+suspension_max_force = 10000.0
+
+[node name="Inprocessbootleggerwheel" type="MeshInstance3D" parent="F_LeftWheel"]
+transform = Transform3D(1.13, 0, 0, 0, 1.13, 0, 0, 0, 1.13, 0, 0, 0)
+mesh = ExtResource("2_ngh4o")
+skeleton = NodePath("../..")
+
+[node name="F_RightWheel" type="VehicleWheel3D" parent="."]
+transform = Transform3D(-1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 0.683, -0.89, -0.907)
+use_as_steering = true
+wheel_friction_slip = 1.4
+suspension_travel = 0.4
+suspension_stiffness = 150.0
+suspension_max_force = 10000.0
+
+[node name="Inprocessbootleggerwheel" type="MeshInstance3D" parent="F_RightWheel"]
+transform = Transform3D(-1.13, 0, 1.70625e-07, 0, 1.13, 0, -1.70625e-07, 0, -1.13, 0, 0, 0)
+mesh = ExtResource("2_ngh4o")
+skeleton = NodePath("../..")
